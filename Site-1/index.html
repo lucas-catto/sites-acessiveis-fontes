@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Acessível</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Website Acessível</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="accessibility-options">
+            <button onclick="toggleTheme()">Alternar Tema</button>
+            <button onclick="increaseFontSize()">Aumentar Fonte</button>
+        </div>
+
+        <main>
+            <section id="home">
+                <h2>Home</h2>
+                <p>Bem-vindo à página inicial do Website Acessível</p>
+            </section>
+            
+            <section id="about">
+                <h2>Sobre</h2>
+                <p>Conheça mais sobre o nosso Website Acessível</p>
+            </section>
+            
+            <section id="services">
+                <h2>Serviços</h2>
+                <p>Veja os serviços do Website Acessível</p>
+            </section>
+            
+            <section id="contact">
+                <h2>Contato</h2>
+                
+                <form action="">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="">
+                    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" cols="30" rows="10"></textarea>
+
+                    <button type="button" onclick="submitForm()">Enviar</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer></footer>
+        
+        <script src="./script.js"></script>
+    </body>
+</html>
