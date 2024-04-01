@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Contato</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <h1>Formulário de Contato</h1>
+
+        <div id="accessibility-options">
+            <button onclick="increaseFontSize()">Aumentar Fonte</button>
+            <button onclick="changeColors()">Alterar Cores</button>
+        </div>
+
+        <form action="">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" cols="30" rows="10"></textarea>
+
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
